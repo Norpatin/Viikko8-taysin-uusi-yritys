@@ -40,10 +40,6 @@ public class MainActivity extends AppCompatActivity {
         float moneyChange = USDButton * money;
         String formattedMoneyChange = String.format("%.02f", moneyChange);
         ResultText1.setText("$" + formattedMoneyChange);
-        //System.out.println("Hellou!!!");
-        //float number = Float.parseFloat(String.valueOf(EuroInput));
-        //float change = number * USDButton;
-        //ResultText.setTextSize(change);
     }
 
     public void GDPButtonWork(View view) {
@@ -52,8 +48,5 @@ public class MainActivity extends AppCompatActivity {
         float moneyChange = GDPButton * money;
         String formattedMoneyChange = String.format("%.02f", moneyChange);
         ResultText1.setText("£" + formattedMoneyChange);
-        //float number = Float.parseFloat(String.valueOf(EuroInput));
-        //float change = number * GDPButton;
-        //ResultText.setTextSize(change);
     }
 }
