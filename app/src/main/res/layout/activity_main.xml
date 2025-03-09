@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/USDButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
@@ -18,14 +18,14 @@
         app:layout_constraintTop_toBottomOf="@+id/EuroInput" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/GDPButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="GDPButtonWork"
         android:text="GDPButton"
         app:layout_constraintBottom_toTopOf="@+id/ResultText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/USDButton"
         app:layout_constraintTop_toBottomOf="@+id/EuroInput" />
 
     <TextView
@@ -46,9 +46,9 @@
         android:inputType="text"
         android:text="Numero"
         app:layout_constraintBottom_toTopOf="@+id/ResultText"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="@+id/GDPButton"
         app:layout_constraintHorizontal_bias="0.328"
-        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/USDButton"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.835" />
 
